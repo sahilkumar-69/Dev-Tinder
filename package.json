@@ -1,8 +1,37 @@
 {
-    "type": "commonjs",
-    "dependencies": {
-        "cookie": "^1.1.1",
-        "jsonwebtoken": "^9.0.3",
-        "mongodb": "^7.0.0"
-    }
+  "type": "module",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.2",
+    "nodemon": "^3.1.11",
+    "validator": "^13.15.26"
+  },
+  "name": "nameste-node",
+  "version": "1.0.0",
+  "description": "Dev-Tinder",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilkumar-69/Dev-Tinder.git"
+  },
+  "keywords": [
+    "Dev-tinder",
+    "node.js"
+  ],
+  "author": "Sahil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilkumar-69/Dev-Tinder/issues"
+  },
+  "homepage": "https://github.com/sahilkumar-69/Dev-Tinder#readme"
 }
